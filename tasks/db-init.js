@@ -1,7 +1,7 @@
 import { db } from "../tools/db.js";
 
 db.exec(`
-    DROP TABLE items;
+    DROP TABLE IF EXISTS items;
     CREATE TABLE items (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         label TEXT NOT NULL
