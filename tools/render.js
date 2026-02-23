@@ -6,7 +6,7 @@ export function render(viewFn, viewData={}, status=200) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Creation</title>
-    <link rel="stylesheet" href="../week_2/assets/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>

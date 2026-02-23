@@ -1,3 +1,10 @@
 body {
-    background: yellow;
+    background: plum;
 }
+header {
+    background: pink;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
